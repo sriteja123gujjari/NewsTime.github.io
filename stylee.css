@@ -1,0 +1,160 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f7ff;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Navigation menu styles */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.header-left {
+    float: left;
+    /* Adjust the width as needed to fit your logo */
+    width: 0%;
+}
+
+.header-right {
+    float: right;
+    /* Adjust the width as needed to balance the header layout */
+    width: 80%;
+    text-align: left;
+}
+
+/* Clear floats after the header elements */
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.search-bar {
+    text-align: right;
+}
+
+.search-input {
+    width: 300px;
+    padding: 0.5rem;
+    border: 2px solid #e7e4e4;
+    border-radius: 5px;
+}
+
+.search-button {
+    background-color: #c92828;
+    color: #e0dcdc;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.search-button:hover{
+    background-color: #e60000;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+a:hover{
+    color: #e60000;
+}
+    
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.news-section {
+    background-color: #ffffff;
+    padding: 1em;
+    border: 2px solid hsl(0, 2%, 25%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1037px;
+}
+
+img{
+    border: 2px;
+    width: 400px;
+    
+    
+}
+
+.news-section h2 {
+    margin-top: 0;
+    text-decoration-color: #e60000;
+    color: #0f0f0f;
+}
+
+.news-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.news-section li {
+    margin-bottom: 20px;
+    text-decoration:black ;
+}
+
+.news-section h3 {
+    margin-top: 0;
+}
+
+.news-section p {
+   font-family: monospace;
+    font-size: 16px;
+    color: #202020;
+}
